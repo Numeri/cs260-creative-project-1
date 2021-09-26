@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.bg-light {
+	background-color: #fff!important;
+}
+
+h1 {
+	font-family: 'Coda', cursive;
+	font-size: 3em;
+	margin-top: 1em!important;
+}
+
+h2 {
+	font-family: 'Coda', cursive;
+}
+
+p {
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+.navbar-brand {
+	font-family: 'Coda', cursive;
+	margin-left: 0.5rem;
+}
+
+.navbar-collapse {
+	margin-left: 0.5rem;
+}
+
+.nav-item {
+	font-size: 1.2em;
+}
+
+.scroll-down {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+@keyframes bounce {
+	0%, 100% {
+		transform: translateY(0.0em);
+	}
+	3% {
+		transform: translateY(0.2em);
+	}
+	6% {
+		transform: translateY(-0.3em);
+	}
+	9% {
+		transform: translateY(-0.3em);
+	}
+	12% {
+		transform: translateY(0.2em);
+	}
+	15% {
+		transform: translateY(-0.3em);
+	}
+	21% {
+		transform: translateY(0.0em);
+	}
+}
+
+.bounce {
+	animation: bounce 5s ease;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+
+.page-sized {
+	height: 100vh;
+	border-bottom: 0.5px solid #000;
+	margin-bottom: 1em;
+}
